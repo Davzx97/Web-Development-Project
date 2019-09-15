@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+
+/* html */
+html{
+	background-color: rgb(247,230,227);
+}
+/* body */
+body{
+	background-color: rgb(255, 255, 255);
+	font-family: Verdana, Geneva, sans-serif;
+	box-shadow:rgb(51, 51, 51) 10px 10px 50px;
+}
+/* Header */
+header{
+	background-image: url("webDevelopmentP.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+}
+
+header h1{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 3.5em;
+	text-align: center;
+	color: white;
+}
+/* Top Links */
+#topLinks{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 1.5em;
+}
+
+ul{
+	list-style:none;	
+}
+
+.mainNav li a{
+	background-color: rgb(46, 46, 46);
+	color: white;
+	text-decoration: none;
+	padding: 10px 10px;
+    display: block;
+	text-align: center;
+}
+
+.mainNav li a:hover, .mainNav li a:active{
+	background-color: rgb(202, 202, 204);
+	text-decoration: underline;
+	color: black;
+}
+
+.mainNav li ul{
+	display: none;
+	position: absolute;
+	min-width: 215.2px;
+}
+
+.mainNav li:hover > ul{
+	display: block;
+}
+
+.mainNav > li{
+	float: left;
+	min-width: 215.2px;
+}
+
+/* Section left */
+section{
+	background-color: rgb(242, 242, 242);
+	border: 1px solid rgb(20, 167, 170);
+	border-radius: 25px;
+	box-shadow:rgb(51, 51, 51) 10px 10px 50px;
+}
+
+section#left h1{
+	border: 1px solid rgb(20, 167, 170);
+	border-radius: 25px 25px 15px 15px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 3.5em;
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+	background-color: rgb(46, 46, 46);
+}
+
+section#left p{
+	font-family:"Times New Roman", Georgia, Serif;
+	font-size: 2.0em;
+}
+
+/* images*/
+#img1{
+	float: right;
+	margin-top: 90px;
+	padding: 4px;
+}
+
+#img2{
+	float: left;
+	margin-top: 25px;
+	padding: 4px;
+}
+
+#img3{
+	float: left;
+	margin-top: 170px;
+	padding: 4px;
+	margin-left: -112px;
+	
+}
+
+/* section right */
+section#right h1{
+	border: 1px solid rgb(20, 167, 170);
+	border-radius: 25px 25px 0px 0px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 2.5em;
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+	background-color: rgb(46, 46, 46);
+}
+
+/* Section nav */
+section#nav h1{
+	border: 1px solid rgb(20, 167, 170);
+	border-radius: 25px 25px 0px 0px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 2.5em;
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+	background-color: rgb(46, 46, 46);
+}
+
+/* Links style */
+.section_Links a:link, .section_Links a:visited{
+	text-decoration: none;
+	font-family: "Times New Roman", Georgia, Serif;
+	text-align: left;
+	color: black;
+	margin-left: 10%;
+	font-size: 1.2em;
+}
+
+.section_Links a:hover, .section_Links a:active{
+	color: rgb(59, 89, 152);
+	text-decoration: underline;
+}
+
+/* paragraph */
+p{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 5%;
+}
+
+/* footer */
+footer{
+	background-color: rgb(46, 46, 46);
+}
+
+footer h1{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+}

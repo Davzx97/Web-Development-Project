@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+
+
+@media screen and (max-width: 800px){
+		section#left, section#right, section#Nav, header, body{
+			width: 100%;
+			padding: 0;
+			clear: both;
+			font-size: 10px;
+			margin-left: 0%;
+			margin-right: 0%;
+		}
+		section#left img{
+			display: none;
+		}
+		section#Nav{
+			margin-top: 75px;
+		}
+}
+
+@media screen and (max-width: 400px){
+		section#left, section#right, section#Nav, header, body{
+			width: 100%;
+			padding: 0;
+			clear: both;
+			font-size: 10px;
+			margin-left: 0%;
+			margin-right: 0%;
+		}
+		section#left img{
+			display: none;
+		}
+		section#Nav{
+			margin-top: 75px;
+		}
+		header h1{
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+}

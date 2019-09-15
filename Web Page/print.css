@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+
+
+ header, nav#topLinks, section#right, section#Nav, img ,footer{
+				display: none;
+}
+
+ section{
+	background-color: none;
+	border: none;
+	border-radius: none;
+	box-shadow: none;
+}
+
+section#left h1{
+	border: none;
+	border-radius: none;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 2.5em;
+	text-align: left;
+	color: black;
+	padding-top: 0;
+	background-color: none;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-family: "Times New Roman", Georgia, Serif;
+} 
